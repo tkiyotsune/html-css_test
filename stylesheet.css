@@ -1,0 +1,20 @@
+.mojired {
+    color: #ff4500;
+}
+
+.container {
+    display: flex;
+}
+
+.article-text{
+    width: 70%;
+}
+
+.article-image {
+    width: 30%;
+    margin: 5px 5%;
+}
+
+.article-image > img {
+    width: 100%;
+}

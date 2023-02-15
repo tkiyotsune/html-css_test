@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body>
+    <h1 class="title">Hello World!</h1>
+  </body>
+  <script>
+    console.log("Hello World!");
+
+    let coupon = 0;
+
+    const menu = {lemon: 100, orange: 200, apple: 50};
+    console.log(menu['apple']);
+
+    let order = [];
+    order.push(menu['lemon']);
+    order.push(menu['lemon']);
+    order.push(menu['apple']);
+
+    console.log(order);
+
+    let result = 0;
+
+    for (let index = 0; index < order.length; index++) {
+      result += order[index];
+      
+    }
+
+    if (coupon === 1 && result > 50) {
+      result = result - 50;
+    }
+
+    console.log(result);
+
+    // let result = menu['orange'] + menu['apple']
+    // console.log(result);
+  </script>
+</html>
